@@ -7,8 +7,11 @@
   </head>
   <body>
     <header>
+      <!-- Logo Website -->
       <img src="" alt="Logo Menit news" />
+      <!-- Judul Website -->
       <h1>Menit News</h1>
+      <!-- Menu Navigasi Website -->
       <nav>
         <ul>
           <li><a href="#beranda">Beranda</a></li>
@@ -18,6 +21,13 @@
           <li><a href="#lifestyle">Lifestyle</a></li>
         </ul>
       </nav>
+      <!-- Form Pencaharian Berita Yang Ingin di Cari -->
+      <form action="/search" method="get">
+        <label for="cari">Cari Berita</label>
+        <input type="search" name="berita" id="berita" placeholder="Cari...." required />
+        <button type="submit">Cari</button>
+      </form>
+      <marquee behavior="300" direction="300">Selamat Data Di Menit News | Berita | Bisnis | Olahraga | Lifestyle</marquee>
     </header>
   </body>
 </html>
