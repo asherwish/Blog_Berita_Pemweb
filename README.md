@@ -39,6 +39,10 @@ Dalam potongan kode ini ditunjukkan struktur area atas (header), alasan mengguna
 
 Dalam Potongan kode ini ditunjukkan struktur area main konten, alasan menggunakan tag main dimana dipakai sebagai landmark konten halaman utama, kemudian tag section digunakan untuk mengelompokkan bagian bertema dengan diawali dengan tag h2, tag section juga berfungsi untuk membantu pengguna dan mesin pencarian memahami struktur topik, contohnya section berita utama dan section trending, sehingga mesin pencaharian dapat mengenali bagian section yang ingin dicari, sedangkan tiap konten berita diberikan tag article untuk konten mandiri yang dapat dipahami terlepas dari konteks halaman.
 
+<img width="864" height="243" alt="berita-konten" src="https://github.com/user-attachments/assets/1f48bc97-0d12-4db8-bf44-84e417b79871" />
+
+Dalam potongan kode ini merupakan konten berita setiap halaman berita. Struktur utamanya memakai tag section sebagai pengelompokan topik, didalamnya ada satu tag article untuk satu berita lengkap. Setiap tag article dapat memiliki tag header yang memuat judul dan gambar utama sebagai identitas berita, diikuti dengan ringkasan/deskripsi sebagai isi berita, serta tag footer yang menyajikan informasi penulis.
+
  <img width="864" height="95" alt="footer" src="https://github.com/user-attachments/assets/11740f61-afb7-48ac-a68b-65fb544d0126" />
 
 Dalam potongan kode ini ditunjukkan struktur area bawah (footer), alasan menggunakan  tag footer digunakan sebagai landmark penutup halaman yang menampung informasi permanent seperti hak cipta, tautan kebijakan, dan kontak. Penempatan tag footer tersebut berada diluar tag main, dimana footer juga berfungsi memperjelas batas antara konten utama dan menjaga konsistensi layout disemua halaman.
@@ -47,7 +51,32 @@ Dalam potongan kode ini ditunjukkan struktur area bawah (footer), alasan menggun
 Penerapan Semantic HTML menjadikan struktur halaman lebih bermakna, mudah dipahami mesin pencari, dan lebih ramah aksesibilitas. Dengan memilih elemen semantik yang tepat, menyusun hierarki heading yang logis, serta menambahkan atribut aksesibilitas seperlunya, halaman menjadi rapi, konsisten, dan mudah dirawat.
 
 LAMPIRAN
+
 Link Github web berita sederhana: https://github.com/bliDedok/Blog_Berita_Pemweb.git
+
+Tampilan halaman beranda berita (index.html)
+
+<img width="977" height="581" alt="index berita" src="https://github.com/user-attachments/assets/3438aa3f-32f0-45c5-ae7a-3f50e8ab3390" />
+
+Tampilan halaman berita Olahraga (berita_olahraga.html)
+
+<img width="977" height="610" alt="berita olahraga" src="https://github.com/user-attachments/assets/6007d6fa-69e7-413e-ad8e-2f8d33f13972" />
+
+Tampilan halaman berita (berita_banjir.html)
+
+<img width="977" height="610" alt="berita banjir" src="https://github.com/user-attachments/assets/cf7ed2c2-4b84-40ed-b47a-f6e7c8899850" />
+
+Tampilan halaman berita Lifestyle (berita_life_style.html)
+
+<img width="977" height="610" alt="berita lifestyle" src="https://github.com/user-attachments/assets/f8da7d0f-0cfa-4af0-b06f-417acdfcd475" />
+
+Tampilan halaman berita bisnis (berita_bisnis.html)
+
+<img width="977" height="610" alt="berita bisnis" src="https://github.com/user-attachments/assets/6457d990-fc0a-4acd-8570-ec96018ee01c" />
+
+
+
+
 
 
 
